@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f24433b2e0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="box">
+        <nav>
+            <ul>
+                <li class="taleBtn">Maqollar</li>
+                <li class="riddlesBtn">Topishmoqlar</li>
+                <span class="line"></span>
+            </ul>
+        </nav>
+        <div class="container">
+            <div class="riddles">
+                <p class="question"></p>
+                <form action="#" id="myForm">
+                    <input id="input"  type="text" placeholder="javobni yozing">
+                </form>
+                
+                <button class="submit">Kiritish</button>
+    
+                <div class="counter"><span id="qCounter"></span><span class="qCounterDiv"></span> </div>
+            </div>
+            <div class="tale">
+                <p class="sentence"></p>
+    
+                <div class="counter"><span id="counter"></span><span class="counterDiv"></span> </div>
+                <i class="fas fa-arrow-right rightBtn"></i>
+                <i class="fas fa-arrow-left leftBtn"></i>
+            </div>
+            
+        </div>
+    </div>
+  
+
+    <div id="container"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
